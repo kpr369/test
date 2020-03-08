@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regressopm]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestDemo(failed)">
+    <classes>
+      <class name="testng.TestAttributes">
+        <methods>
+          <include name="testMethod1"/>
+          <include name="testMethod2"/>
+        </methods>
+      </class> <!-- testng.TestAttributes -->
+    </classes>
+  </test> <!-- TestDemo(failed) -->
+</suite> <!-- Failed suite [Regressopm] -->
